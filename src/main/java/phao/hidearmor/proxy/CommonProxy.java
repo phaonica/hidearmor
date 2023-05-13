@@ -1,9 +1,11 @@
-package phao.hidearmor;
+package phao.hidearmor.proxy;
 
+import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import phao.hidearmor.RegistryHandler;
 
 // TODO: The correct way to do proxies is an IProxy interface rather than a CommonProxy class
 // Reference: https://forums.minecraftforge.net/topic/69593-javalangclassnotfoundexception-of-my-clientproxy/
@@ -31,4 +33,7 @@ public class CommonProxy
 	{
 		
 	}
+	
+	public void registerItemRenderer(Item item, int meta, String id) {}
+	
 }
