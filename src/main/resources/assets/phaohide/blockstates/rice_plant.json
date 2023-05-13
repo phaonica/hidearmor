@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "age=0": { "model": "phaohide:rice_plant0" },
+        "age=1": { "model": "phaohide:rice_plant1" },
+        "age=2": { "model": "phaohide:rice_plant2" },
+        "age=3": { "model": "phaohide:rice_plant3" },
+        "age=4": { "model": "phaohide:rice_plant4" },
+        "age=5": { "model": "phaohide:rice_plant5" },
+        "age=6": { "model": "phaohide:rice_plant6" },
+        "age=7": { "model": "phaohide:rice_plant7" }    }
+}

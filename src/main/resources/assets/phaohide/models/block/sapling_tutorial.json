@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "phaohide:blocks/sapling_tutorial"
+    }
+}
