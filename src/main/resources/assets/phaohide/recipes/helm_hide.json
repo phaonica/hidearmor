@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+      "ZZZ",
+      "Z Z"
+    ],
+    
+    "key":
+    {
+        "Z":
+        {
+            "item":"minecraft:rotten_flesh"
+        }
+    },
+    
+    "result":
+    {
+        "item":"phaohide:armor_tutorial_head",
+        "count": 1
+    }
+}

@@ -1,7 +1,10 @@
 item.ingot_tutorial.name=Tutorial Ingot
 tile.ore_tutorial.name=Tutorial Ore OLD
 itemGroup.tab_tutorial=Tutorial Tab
-item.helmet_tutorial.name=Tutorial Helmet
+item.armor_tutorial_body.name=Tutorial Armor
+item.armor_tutorial_feet.name=Tutorial Boots
+item.armor_tutorial_head.name=Tutorial Helmet
+item.armor_tutorial_legs.name=Tutorial Leggings
 item.pickaxe_tutorial.name=Tutorial Pickaxe
 tile.planks_aluminium.name=Aluminium Planks
 tile.planks_tutorial.name=Tutorial Planks
