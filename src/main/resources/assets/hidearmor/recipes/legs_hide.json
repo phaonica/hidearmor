@@ -3,9 +3,9 @@
     
     "pattern":
     [
-      "Z Z",
       "ZZZ",
-      "ZZZ"
+      "Z Z",
+      "Z Z"
     ],
     
     "key":
@@ -18,7 +18,7 @@
     
     "result":
     {
-        "item":"phaohide:armor_tutorial_body",
+        "item":"hidearmor:armor_hide_legs",
         "count": 1
     }
 }

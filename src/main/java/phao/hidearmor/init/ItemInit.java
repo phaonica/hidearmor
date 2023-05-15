@@ -6,12 +6,9 @@ import java.util.List;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraftforge.common.util.EnumHelper;
 import phao.hidearmor.objects.armor.ArmorBase;
-import phao.hidearmor.objects.items.ItemBase;
-import phao.hidearmor.objects.tools.ToolPickaxe;
 import phao.hidearmor.util.Reference;
 
 public class ItemInit 
@@ -29,12 +26,12 @@ public class ItemInit
 	 */
 	
 	//public static final ArmorMaterial ARMOR_COPPER = EnumHelper.addArmorMaterial(name, textureName, durability, reductionAmounts, enchantability, soundOnEquip, toughness)
-	public static final ArmorMaterial ARMOR_TUTORIAL = EnumHelper.addArmorMaterial("armor_tutorial", Reference.MODID+":tutorial", 3, new int[]{1, 1, 1, 1}, 5, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F); // below leather values
+	public static final ArmorMaterial ARMOR_TUTORIAL = EnumHelper.addArmorMaterial("armor_hide", Reference.MODID+":hide", 3, new int[]{1, 1, 1, 1}, 5, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F); // below leather values
 
 	//public static final Item HELMET_TUTORIAL = new ArmorBase(name, material, renderIndex, slot);
-	public static final Item HELMET_TUTORIAL = new ArmorBase("armor_tutorial_head", ARMOR_TUTORIAL, 1, EntityEquipmentSlot.HEAD);
-	public static final Item CHEST_TUTORIAL = new ArmorBase("armor_tutorial_body", ARMOR_TUTORIAL, 1, EntityEquipmentSlot.CHEST);
-	public static final Item LEGGINGS_TUTORIAL = new ArmorBase("armor_tutorial_legs", ARMOR_TUTORIAL, 2, EntityEquipmentSlot.LEGS);
-	public static final Item BOOTS_TUTORIAL = new ArmorBase("armor_tutorial_feet", ARMOR_TUTORIAL, 1, EntityEquipmentSlot.FEET);
+	public static final Item HELMET_TUTORIAL = new ArmorBase("armor_hide_head", ARMOR_TUTORIAL, 1, EntityEquipmentSlot.HEAD);
+	public static final Item CHEST_TUTORIAL = new ArmorBase("armor_hide_body", ARMOR_TUTORIAL, 1, EntityEquipmentSlot.CHEST);
+	public static final Item LEGGINGS_TUTORIAL = new ArmorBase("armor_hide_legs", ARMOR_TUTORIAL, 2, EntityEquipmentSlot.LEGS);
+	public static final Item BOOTS_TUTORIAL = new ArmorBase("armor_hide_feet", ARMOR_TUTORIAL, 1, EntityEquipmentSlot.FEET);
 
 }

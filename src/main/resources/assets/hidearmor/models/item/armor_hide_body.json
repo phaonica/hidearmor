@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "phaohide:items/armor_tutorial_feet"
+        "layer0": "hidearmor:items/armor_hide_body"
     }
 }
