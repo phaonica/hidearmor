@@ -1,37 +1,4 @@
-item.ingot_tutorial.name=Tutorial Ingot
-tile.ore_tutorial.name=Tutorial Ore OLD
-itemGroup.tab_tutorial=Tutorial Tab
 item.armor_tutorial_body.name=Tutorial Armor
 item.armor_tutorial_feet.name=Tutorial Boots
 item.armor_tutorial_head.name=Tutorial Helmet
 item.armor_tutorial_legs.name=Tutorial Leggings
-item.pickaxe_tutorial.name=Tutorial Pickaxe
-tile.planks_aluminium.name=Aluminium Planks
-tile.planks_tutorial.name=Tutorial Planks
-tile.log_tutorial.name=Tutorial Log
-tile.log_aluminium.name=Aluminium Log
-tile.leaves_tutorial.name=Tutorial Leaves
-tile.leaves_aluminium.name=Aluminium Leaves
-tile.sapling_tutorial.name=Tutorial Sapling
-tile.sapling_aluminium.name=Aluminium Sapling
-
-tile.ore_overworld_aluminium.name=Aluminium Ore
-tile.ore_overworld_tutorial.name=Tutorial Ore
-tile.ore_nether_aluminium.name=Aluminium Nether Ore
-tile.ore_nether_tutorial.name=Tutorial Nether Ore
-tile.ore_end_aluminium.name=Aluminium End Ore
-tile.ore_end_tutorial.name=Tutorial End Ore
-tile.teleporter.name=Teleporter
-
-entity.centaur.name=Centaur
-
-tile.santa_hat.name=Santa Hat
-
-// SINTERING
-container.sintering_furnace=Sintering Furnace
-tile.sintering_furnace.name=Sintering Furnace
-
-// RICE CROP
-item.rice_bowl.name=Rice Bowl
-item.rice.name=Rice
-tile.rice_plant.name=Rice Plant

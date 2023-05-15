@@ -18,17 +18,6 @@ public class ItemInit
 {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
-	/*
-	 *  WOOD(0, 59, 2.0F, 0.0F, 15),
-        STONE(1, 131, 4.0F, 1.0F, 5),
-        IRON(2, 250, 6.0F, 2.0F, 14),
-        DIAMOND(3, 1561, 8.0F, 3.0F, 10),
-        GOLD(0, 32, 12.0F, 0.0F, 22);
-	 */
-	
-//	public static final ToolMaterial TOOL_COPPER = EnumHelper.addToolMaterial("tool_copper", harvestLevel, maxUses, efficiency, damage, enchantability)
-	public static final ToolMaterial TOOL_TUTORIAL = EnumHelper.addToolMaterial("tool_tutorial", 1, 131, 4.0F, 1.0F, 5); // stone values
-
 	
 	/*
 	 *  LEATHER("leather", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F),
@@ -41,10 +30,6 @@ public class ItemInit
 	
 	//public static final ArmorMaterial ARMOR_COPPER = EnumHelper.addArmorMaterial(name, textureName, durability, reductionAmounts, enchantability, soundOnEquip, toughness)
 	public static final ArmorMaterial ARMOR_TUTORIAL = EnumHelper.addArmorMaterial("armor_tutorial", Reference.MODID+":tutorial", 3, new int[]{1, 1, 1, 1}, 5, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0F); // below leather values
-	
-	public static final Item INGOT_TUTORIAL = new ItemBase("ingot_tutorial");
-	
-	public static final Item PICKAXE_TUTORIAL = new ToolPickaxe("pickaxe_tutorial", TOOL_TUTORIAL);
 
 	//public static final Item HELMET_TUTORIAL = new ArmorBase(name, material, renderIndex, slot);
 	public static final Item HELMET_TUTORIAL = new ArmorBase("armor_tutorial_head", ARMOR_TUTORIAL, 1, EntityEquipmentSlot.HEAD);
